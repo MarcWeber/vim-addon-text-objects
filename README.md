@@ -5,6 +5,9 @@ which objects are supported?
 - da, va, ..: delete an argument within (a, b, c) [1]
   dA,: trim arg: remove leading, trailing , and spaces
 
+  Note: Probably there should be a config option about whether spaces after 
+  (a, b) vs ( a, b ) should be preferred.
+
 [1]:
 implementation copied from: https://github.com/austintaylor/vim-commaobject
 
